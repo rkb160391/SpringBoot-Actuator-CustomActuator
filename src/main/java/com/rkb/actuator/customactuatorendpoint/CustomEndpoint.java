@@ -5,9 +5,9 @@ import org.springframework.boot.actuate.endpoint.annotation.ReadOperation;
 import org.springframework.stereotype.Component;
 
 @Component
-@Endpoint(id = "ravibaghel", enableByDefault = true)
+@Endpoint(id = "rkb160391", enableByDefault = true)
 public class CustomEndpoint {
-	
+
 	@ReadOperation
 	public CustomEndpointReponse features() {
 		return new CustomEndpointReponse(1111, "Welcome to custom actuator", "200");
