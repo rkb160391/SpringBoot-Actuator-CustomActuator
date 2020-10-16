@@ -1,0 +1,6 @@
+server:
+  port: 8081  tomcat:    accesslog:      enabled: false
+logging:  level:    web: trace   
+management:  endpoints:    web:      exposure:        include:        -   "*"   
+  endpoint:    health:      show-details: always    
+
